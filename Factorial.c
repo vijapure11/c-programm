@@ -11,5 +11,14 @@ main()
     fact=fact*i;
   }
 printf("\n Factorial=%d",fact);
+
+void add()
+{
+  int a,b,c;
+  printf("\n Enter two number: ");
+  scanf("%d%d",&a,&b);
+  c=a+b;
+  printf("\n addition of two number= ",c);
+}
   
    
